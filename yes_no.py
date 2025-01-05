@@ -21,6 +21,8 @@ def getYesNo(answer):
         condN = True
   Fy.close()
   Fn.close()
+  meaning = 'yes' if condY else 'no'
+  print(f'{answer} means {meaning}')
   return condY
 
 def searchLn(s, fn):
